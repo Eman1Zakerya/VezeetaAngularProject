@@ -1,0 +1,18 @@
+<app-heading></app-heading>
+
+<div class="container mt-3">
+  <div class="d-flex mt-2 me-2" style="font-size: 13px; font-weight: bolder">
+    <a style="text-decoration: none" href=""><span>  فيزيتا </span></a>
+    <p><span>   /   {{Doctor?.name}} </span></p>
+  </div>
+
+  <div class="row mb-4 gy-3">
+    <div class="col-md-7 col-sm-12">
+      <app-doctor-information [doctor]="Doctor" ></app-doctor-information>
+    </div>
+
+    <div class="col-md-5 col-sm-12">
+      <app-booking-information [doctor]="Doctor"></app-booking-information>
+    </div>
+  </div>
+</div>

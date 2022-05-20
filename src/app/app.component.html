@@ -1,0 +1,10 @@
+<!-- <html [lang]='lang' [dir]="'langEvent'?'rtl':'ltr'"> -->
+<div dir="rtl">
+<app-nav-bar></app-nav-bar>
+</div>
+<div [lang]='lang' [dir]='langEvent'>
+    <div>
+        <router-outlet></router-outlet>
+        <app-footer></app-footer>
+    </div>
+</div>

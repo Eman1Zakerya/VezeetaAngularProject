@@ -1,0 +1,20 @@
+/* .navbar-nav a {
+  color: whitesmoke !important;
+} */
+
+.navbar-nav a:hover {
+  text-decoration: underline;
+}
+
+.navBorder {
+  color: whitesmoke;
+  margin: 10px 0px;
+  text-align: center;
+  line-height: inherit;
+}
+
+@media screen and (max-width: 991px) {
+  .navBorder {
+    display: none;
+  }
+}
